@@ -1,0 +1,41 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and temporary files
+*.log
+*.tlog
+*.vshost.*
+*.tmp
+*.cache
+*.csproj.user
+
+# Visual Studio Code settings
+.vscode/
+
+# NuGet Packages
+*.nupkg
+packages/
+!packages/repositories.config
+
+# Rider (JetBrains IDE)
+.idea/
+
+# Debugging files
+*.pdb
+*.ilk
+*.exp
+
+# Resharper files
+*.DotSettings.user
+
+# Deployment artifacts
+.publish/
+*.publishsettings

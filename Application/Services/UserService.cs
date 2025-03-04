@@ -50,7 +50,7 @@ namespace Application.Services
         {
             //Check if user existis
             var userFound = await _userRepository.GetUserById(id);
-            if (userFound != null)
+            if (!string.IsNullOrEmpty(userFound.Email))
             {
                 bool isEmailExists = false;
                 //check if email is different from original and chekc if email exists

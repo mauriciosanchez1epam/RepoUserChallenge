@@ -73,7 +73,7 @@ namespace DevChallenge.Controllers
             if (updated)
                 return NoContent();
             else
-            { return BadRequest("Please check that the email does not exist in the database."); }
+            { return BadRequest("Please check that the user Id or Email exists in the database."); }
 
         }
 
