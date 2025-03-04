@@ -53,10 +53,11 @@ Instead of directly instantiating a database connection, the repository depends 
 which can be easily mocked in unit tests. This enables testing the repository logic without requiring a real database, 
 ensuring better isolation, faster test execution, and improved reliability
 
-## **Bonus Integration Test**
+## **Bonus Integration Test And Unit Test**
 -I have created an example of integration test using WebApplicationFactory and sql lite in memory.
+-I have created an example of Unit test using Xunit only of the Controller part.
 
-## **Bonus Integration Test**
+## **Script Users **
 -Script of table user with Email unique index .
 CREATE TABLE [dbo].[Users](
 [Id] [int] IDENTITY(1,1) NOT NULL,
