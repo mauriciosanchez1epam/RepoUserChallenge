@@ -58,7 +58,8 @@ ensuring better isolation, faster test execution, and improved reliability
 -I have created an example of Unit test using Xunit only of the Controller part.
 
 ## **Script Users **
--Script of table user with Email unique index .
+-you have to create a database and then execute the following script, and update the ConnectionStrings in appsettings.
+-Script of table user with Email unique index.
 CREATE TABLE [dbo].[Users](
 [Id] [int] IDENTITY(1,1) NOT NULL,
 [FirstName] [varchar](128) NULL,
